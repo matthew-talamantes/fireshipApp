@@ -1,0 +1,6 @@
+{
+    "editor.suggest.showColors": false,
+    "editor.suggest.showCustomcolors": false,
+    "editor.colorDecorators": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}
