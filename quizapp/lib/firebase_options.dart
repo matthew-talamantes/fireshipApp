@@ -63,6 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '824199612931',
     projectId: 'fireshipquiz-2bc40',
     storageBucket: 'fireshipquiz-2bc40.appspot.com',
+    androidClientId: '824199612931-od4v67sj3e3mr168g2t5jauumnhtspes.apps.googleusercontent.com',
     iosClientId: '824199612931-dmrfti77kupp73lm5f4slin5j8r2ej1n.apps.googleusercontent.com',
     iosBundleId: 'com.mtalamantes.quizapp',
   );
