@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quizapp/services/models.dart';
 
 class QuizState with ChangeNotifier {
+  final PageController controller = PageController();
   double _progress = 0;
   Option? _selected;
 
@@ -16,5 +17,12 @@ class QuizState with ChangeNotifier {
   set selected(Option? newValue) {
     _selected = newValue;
     notifyListeners();
+  }
+
+  void nextPage() async {
+    await controller.nextPage(
+      duration: const Duration(milliseconds: 500),
+      curve: Curves.easeOut,
+    );
   }
 }
